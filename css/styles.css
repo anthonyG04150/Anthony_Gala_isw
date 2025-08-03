@@ -1,0 +1,204 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Para alinear elementos a los extremos */
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+header img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+nav {
+    display: flex;
+    gap: 10px;
+}
+
+nav button {
+    background-color: #ff9900;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+nav button:hover {
+    background-color: #cc7a00;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+#welcome h1 {
+    text-align: center; /* Centrar el h1 */
+}
+
+#welcome img {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+}
+
+#quienes-somos, #desarrollo-historico {
+    margin-top: 20px;
+}
+
+#quienes-somos h2 {
+    color: red;
+}
+
+#desarrollo-historico h2 {
+    color: blue;
+}
+
+.button {
+    background-color: #ffcc00;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #e6b800;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: left;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    position: static;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer .contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+footer .contact-info p {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+footer .contact-info p img {
+    margin-right: 10px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+}
+
+.two-column {
+    display: flex;
+    align-items: flex-start;
+}
+
+.two-column .text-content {
+    flex: 1;
+    margin-right: 20px; /* Ajustar margen derecho para espacio entre texto e imagen */
+}
+
+.two-column .image-content {
+    flex: 0 0 150px; /* Ajuste del tamaño del contenedor de la imagen */
+}
+
+.two-column .image-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+#mision-vision {
+    margin-top: 20px;
+}
+
+#mision-vision h2 {
+    color: red;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.mision-vision-content {
+    margin-bottom: 20px;
+}
+
+.mision h3, .vision h3 {
+    color: #ff9900;
+    margin-bottom: 5px;
+}
+
+.organigrama-link {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.organigrama-link:hover {
+    text-decoration: underline;
+}
+
+#youtube {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#youtube h2 {
+    color: blue;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.youtube-content img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+/*telefonito*/
+.contact-info p {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-info img {
+    width: 24px;  
+    height: 24px; 
+    margin-right: 8px;  
+  }
